@@ -1,0 +1,21 @@
+body{
+    background-color:chartreuse;
+}
+h1,h4{
+    
+    text-align: center;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    width: 70px;
+    height: 70px;
+}
+
+img{
+text-align: center;
+
+}
