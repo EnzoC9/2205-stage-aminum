@@ -1,0 +1,22 @@
+body{
+    background-color: whitesmoke;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h1,h2{
+    border: solid black 1px;
+    padding-left: 10px;
+    background-color: beige;
+}
+
+#top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px blue;
+}
+#content1, #content2 {
+    border : solid 1px red;
+}
+
