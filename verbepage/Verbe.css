@@ -1,0 +1,56 @@
+h1{
+    border: 1px solid orange;
+    border-radius: 10px;
+    background-color: orange;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+
+}
+#indi{
+    padding-left: 900px;
+    
+}
+
+
+.gauche{
+    border: 1px solid black;
+    margin-left: 80px;
+}
+
+.droite{
+    border: 1px solid green;
+    margin-left: 80px;
+    
+}
+.conteneur{
+    padding-top: 20px;
+    display: flex;
+    border: 2px solid blue;
+}
+.droitedroite{
+    justify-content: space-around;
+    margin-left: 500px;
+    
+}
+.basdroitedroite{
+
+}
+.imperatif{
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+.pre{
+    display: flex;
+}
+.temps{
+    display: flex;
+}
+.fin{
+    display: flex;
+    justify-content: space-between  ;
+}
+.gros{
+    
+}
