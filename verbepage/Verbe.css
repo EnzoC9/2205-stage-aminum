@@ -5,36 +5,42 @@ h1{
     width: 200px;
     text-align: center;
     margin-bottom: 20px;
+    color: azure;
     
 
 }
 #indi{
     padding-left: 900px;
+    padding-top: 2px;
     
 }
 
 
 .gauche{
-    border: 1px solid black;
+    
     margin-left: 80px;
 }
 
 .droite{
-    border: 1px solid green;
     margin-left: 80px;
     
 }
 .conteneur{
     padding-top: 20px;
     display: flex;
-    border: 2px solid blue;
+   
 }
 .droitedroite{
     justify-content: space-around;
-    margin-left: 500px;
-    
+    margin-left: 400px;
+    margin-right: 90px;
+    position: absolute;
+    margin-left: 900px;
 }
 .basdroitedroite{
+    position: absolute;
+    margin-left: 1050px;
+   
 
 }
 .imperatif{
@@ -46,11 +52,106 @@ h1{
 }
 .temps{
     display: flex;
+    margin-top: 90px;
+    margin-right: ;
 }
 .fin{
-    display: flex;
+    
     justify-content: space-between  ;
 }
 .gros{
+    position: absolute;
+    margin-top: 1150px;
+    margin-left: 900px;
+    border: 3px solid black;
+    width: 350px;
+    height: 370px;
     
 }
+.no{
+    justify-content: space-between;
+}
+#indidi{
+    margin-bottom: 80px;
+    position: absolute;
+    margin-left: 90px;
+}
+#imp{
+    margin-right: 180px;
+    position: absolute;
+    margin-bottom: 800px;
+}
+#pres{
+    color: aqua;
+
+}
+#impar{
+    color: aqua;
+}
+#passesimp{
+    color: aqua;
+}
+#futursimp{
+    color: aqua;
+}
+#condi{
+    color: aqua;
+}
+#compo{
+    color: aqua;
+}
+#plus{
+    color: aqua;
+}
+#anter{
+    color: aqua;
+}
+#anterfu{
+    color: aqua;
+}
+#condipa{
+    color: aqua;
+}
+#pre2{
+    color: aqua;
+}
+#impa2{
+    color: aqua;
+}
+#pas2{
+    color: aqua;
+}
+#plus2{
+    color: aqua;
+}
+#prebas{
+    color: aqua;
+}
+#pasbas{
+    color: aquas;
+}
+#prebas2{
+    color: aqua;
+}
+#pasbas2{
+    color: aqua;
+}
+.pad{
+    padding: 2px;
+}
+.mouv{
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 90px;
+}
+.mouv2{
+    position: absolute;
+}
+
+
+.last{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 910px;
+}
+
