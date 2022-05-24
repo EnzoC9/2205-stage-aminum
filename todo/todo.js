@@ -88,6 +88,10 @@ BePolite.sayHelloTo("Enzo");
 
 const sum = BePolite.add(2, 3);
 
+const buttons = document.querySelectorAll(".bouton"); 
 
-
-
+for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", () => {
+        buttons[i].parentElement.style.display = "none";
+    });
+}
