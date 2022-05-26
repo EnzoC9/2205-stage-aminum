@@ -1,14 +1,23 @@
-h1,h3{
+h3{
     text-align: center;
+    color: blueviolet;
 
 }
-body{
-    padding-top: 2px;
-}
+
  .bouton{
     border: 1px  solid black;
-   border-radius: 7px;
-    background-color: white;
-    margin: 2px;
+    border-radius: 7px;
+    background-color: rgb(253, 207, 0);
+    margin: 3px;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
     
 } 
+#barre{
+    width:  200px;
+    height: 25px;
+    float: right;
+    margin-right: 100px;
+}
+
