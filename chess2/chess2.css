@@ -1,0 +1,22 @@
+table{
+     margin-left: 400px;
+     width: 550px;
+     height: 550px;
+     text-align: center;
+     border: black solid 1px ;
+}
+
+.num_ligne{
+     background-color: rgb(255, 0, 0);
+}
+
+td{
+     border: black solid 1px ;
+     color: white;
+}
+.caseblanche{
+     background-color: burlywood;
+}
+.casenoir{
+     background-color: black;
+}
