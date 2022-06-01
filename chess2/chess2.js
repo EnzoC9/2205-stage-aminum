@@ -61,66 +61,83 @@ function afficheJeu() {
 // exemple d'appel mouvement("b2", "b3")
 function mouvement(caseIdDepart, caseIdArrivee) {
 
-    console.log(caseIdDepart);
-    console.log(caseIdArrivee);
-
-    // Traitement de la case départ
-    console.log(caseIdDepart[0]);
-    console.log(caseIdDepart[1]);
-
-    // b2 => [6] [1]
-    // colonne b en html =>  colonne 1 dans jeuEchec
-    // ligne 2 en html => ligne 6 dans jeuEchec
-
     let cd = indice[caseIdDepart[0]];
-    console.log("Valeur pour la colonne en utilisant l'indice " + cd);
+    let id = parseInt(caseIdDepart[1]);
+    let idTransfo = 8 - ld;
 
-    let ld = parseInt(caseIdDepart[1]);
-    let ldTransfo = 8 - ld;
-    console.log("ld = " + ld);
-    console.log("Valeur pour la ligne en utilisant 8 -z " + ldTransfo);
-
-    // Traitement case d'arrivée
-
-    // b3 => [5][1]
     let ca = indice[caseIdArrivee[0]];
     let la = parseInt(caseIdArrivee[1]);
     let laTransfo = 8 - la;
-
+    
     jeuEchec[laTransfo][ca] = jeuEchec[ldTransfo][cd];
-    jeuEchec[ldTransfo][cd] = "";
+    jeuEchec[idTransfo][cd] = "";
+
+
+
+
+
+
+
+    // console.log(caseIdDepart);
+    // console.log(caseIdArrivee);
+
+    // // Traitement de la case départ
+    // console.log(caseIdDepart[0]);
+    // console.log(caseIdDepart[1]);
+
+    // // b2 => [6] [1]
+    // // colonne b en html =>  colonne 1 dans jeuEchec
+    // // ligne 2 en html => ligne 6 dans jeuEchec
+
+    // let cd = indice[caseIdDepart[0]];
+    // console.log("Valeur pour la colonne en utilisant l'indice " + cd);
+
+    // let ld = parseInt(caseIdDepart[1]);
+    // let ldTransfo = 8 - ld;
+    // console.log("ld = " + ld);
+    // console.log("Valeur pour la ligne en utilisant 8 -z " + ldTransfo);
+
+    // // Traitement case d'arrivée
+
+    // // b3 => [5][1]
+    // let ca = indice[caseIdArrivee[0]];
+    // let la = parseInt(caseIdArrivee[1]);
+    // let laTransfo = 8 - la;
+
+    // jeuEchec[laTransfo][ca] = jeuEchec[ldTransfo][cd];
+    // jeuEchec[ldTransfo][cd] = "";
 
 
 }
 afficheJeu();
-setTimeout(function(){
+setTimeout(function () {
     console.log("call 1 I am the third log after 5 seconds");
-    mouvement("b2", "b4");
+    mouvement("c2", "c4");
     afficheJeu();
 
-},3000);
+}, 3000);
 
-setTimeout(function(){
+setTimeout(function () {
     console.log("call 2 I am the third log after 5 seconds");
     mouvement("c2", "c3");
     afficheJeu();
 
-},6000);
+}, 6000);
 
-setTimeout(function(){
+setTimeout(function () {
     console.log("call 2 I am the third log after 5 seconds");
     mouvement("e2", "e4");
     afficheJeu();
 
-},8000);
+}, 8000);
 
 
-setTimeout(function(){
+setTimeout(function () {
     console.log("call 2 I am the third log after 5 seconds");
     mouvement("f2", "f3");
     afficheJeu();
 
-},10000);
+}, 10000);
 
 //  jeuEchec = [
 // 0 //     ["TN", "CN", "FN", "DR", "RN", "FN", "CN", "TN"],
