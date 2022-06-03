@@ -10,9 +10,9 @@ let joueurO = "O";
 
  function boutonclic(){
      console.log(this);
-    
+    this.innerText="X";
  };
- 
+
  let init = document.getElementById("btnInit");
 
  init.addEventListener("click", clicBoutonInit);
