@@ -20,7 +20,18 @@ body{
 
 .top{
      background-color: aliceblue;
+    height: 20px;
 }
 .droite{
     background-color: aliceblue;
+    width: 20px;
+}
+#A1{
+    border-left: none;
+}
+#B1{
+border-left: none;
+}
+#C1{
+    border-left: none;
 }
