@@ -36,17 +36,17 @@ console.log(indice["a"]);
 
 // Pour chaque case du jeuEchec afficher
 // Afficher la valeur dans le bon td
-let num = parseInt("a");
-console.log(num);
+// let num = parseInt("a");
+// console.log(num);
 
-"A".charCodeAt(0);
-// String.fromCharCode(65,66,67);
-let codeDeA = "a".charCodeAt(0);
-console.log(codeDeA);
-let codeDeB = codeDeA + 1;
-console.log(codeDeB);
-let caractereB = String.fromCharCode(codeDeB);
-console.log(caractereB);
+// "A".charCodeAt(0);
+// // String.fromCharCode(65,66,67);
+// let codeDeA = "a".charCodeAt(0);
+// console.log(codeDeA);
+// let codeDeB = codeDeA + 1;
+// console.log(codeDeB);
+// let caractereB = String.fromCharCode(codeDeB);
+// console.log(caractereB);
 
 
 function afficheJeu(leJeuAAfficher) {
@@ -98,17 +98,17 @@ function clicBoutonInit() {
 }
 
 let recherche = document.getElementById("search");
-function rechercheCases(indice){
+function rechercheCases(indice) {
     afficheJeu(indice);
 
 }
 
- let btnPlace = document.getElementById("btnPlace");
+let btnPlace = document.getElementById("btnPlace");
 
-  btnPlace.addEventListener("click");
-  function clicBoutonPlace() {
-      afficheJeu(jeuEchec);
-  }
+btnPlace.addEventListener("click", clicBoutonPlace);
+function clicBoutonPlace() {
+    afficheJeu(jeuEchec);
+}
 
 
 
